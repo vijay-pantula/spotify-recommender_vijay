@@ -4,6 +4,7 @@ import numpy as np
 import pickle
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import NearestNeighbors
+st.set_page_config(layout="wide")
 
 # Load KNN model, dataset, and scaler
 with open('knn.pkl', 'rb') as file:
